@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3112771924BE9EC200C40C77 /* NBPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112771824BE9EC200C40C77 /* NBPresentViewController.m */; };
 		3112771C24BEA02900C40C77 /* UIViewController+PresentViewControllerOnIOS13.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112771B24BEA02900C40C77 /* UIViewController+PresentViewControllerOnIOS13.m */; };
+		3112771F24BEB85300C40C77 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112771E24BEB85300C40C77 /* Student.m */; };
+		3112772224BEB8CF00C40C77 /* Student+man.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112772124BEB8CF00C40C77 /* Student+man.m */; };
+		3112772524BEB8DE00C40C77 /* Student+woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112772424BEB8DE00C40C77 /* Student+woman.m */; };
 		3112F7F824AD9E16002A9D78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112F7F724AD9E16002A9D78 /* AppDelegate.m */; };
 		3112F7FB24AD9E16002A9D78 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112F7FA24AD9E16002A9D78 /* SceneDelegate.m */; };
 		3112F7FE24AD9E16002A9D78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112F7FD24AD9E16002A9D78 /* ViewController.m */; };
@@ -45,6 +48,12 @@
 		3112771824BE9EC200C40C77 /* NBPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPresentViewController.m; sourceTree = "<group>"; };
 		3112771A24BEA02900C40C77 /* UIViewController+PresentViewControllerOnIOS13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PresentViewControllerOnIOS13.h"; sourceTree = "<group>"; };
 		3112771B24BEA02900C40C77 /* UIViewController+PresentViewControllerOnIOS13.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PresentViewControllerOnIOS13.m"; sourceTree = "<group>"; };
+		3112771D24BEB85300C40C77 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		3112771E24BEB85300C40C77 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		3112772024BEB8CF00C40C77 /* Student+man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+man.h"; sourceTree = "<group>"; };
+		3112772124BEB8CF00C40C77 /* Student+man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+man.m"; sourceTree = "<group>"; };
+		3112772324BEB8DE00C40C77 /* Student+woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+woman.h"; sourceTree = "<group>"; };
+		3112772424BEB8DE00C40C77 /* Student+woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+woman.m"; sourceTree = "<group>"; };
 		3112F7F324AD9E16002A9D78 /* LearnCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3112F7F624AD9E16002A9D78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3112F7F724AD9E16002A9D78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +136,12 @@
 				3112F7FD24AD9E16002A9D78 /* ViewController.m */,
 				3112771724BE9EC200C40C77 /* NBPresentViewController.h */,
 				3112771824BE9EC200C40C77 /* NBPresentViewController.m */,
+				3112771D24BEB85300C40C77 /* Student.h */,
+				3112771E24BEB85300C40C77 /* Student.m */,
+				3112772024BEB8CF00C40C77 /* Student+man.h */,
+				3112772124BEB8CF00C40C77 /* Student+man.m */,
+				3112772324BEB8DE00C40C77 /* Student+woman.h */,
+				3112772424BEB8DE00C40C77 /* Student+woman.m */,
 				3112F82B24AD9E98002A9D78 /* CustomerButton.h */,
 				3112F82C24AD9E98002A9D78 /* CustomerButton.m */,
 				3112771A24BEA02900C40C77 /* UIViewController+PresentViewControllerOnIOS13.h */,
@@ -299,8 +314,11 @@
 				3112F80924AD9E1C002A9D78 /* main.m in Sources */,
 				3112771924BE9EC200C40C77 /* NBPresentViewController.m in Sources */,
 				3112F83324AD9EB5002A9D78 /* ViewReusePool.m in Sources */,
+				3112771F24BEB85300C40C77 /* Student.m in Sources */,
 				3112F82D24AD9E99002A9D78 /* CustomerButton.m in Sources */,
+				3112772224BEB8CF00C40C77 /* Student+man.m in Sources */,
 				3112F7FB24AD9E16002A9D78 /* SceneDelegate.m in Sources */,
+				3112772524BEB8DE00C40C77 /* Student+woman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

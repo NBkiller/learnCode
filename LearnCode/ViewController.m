@@ -11,6 +11,8 @@
 #import "NBPresentViewController.h"
 #import "UIViewController+PresentViewControllerOnIOS13.h"
 
+#import "Student.h"
+
 @interface ViewController ()
 
 @end
@@ -38,8 +40,14 @@
 - (void)CustomerButtonClick {
     NSLog(@"CustomerButtonClick 被点击了");
     
-    NBPresentViewController *presentVC = [[NBPresentViewController alloc] init];
-    [self presentViewController:presentVC animated:YES completion:nil];
+    //用自定义类 分类覆盖原类的同名方法
+    Student *stu = [Student new];
+    
+    [stu studyEnglish];
+    
+//    // 系统类 分类似乎无法覆盖原类同名方法
+//    NBPresentViewController *presentVC = [[NBPresentViewController alloc] init];
+//    [self presentViewController:presentVC animated:YES completion:nil];
 }
 
 @end
